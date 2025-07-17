@@ -1,6 +1,7 @@
 #  Bank Customer Churn Prediction
 
 This project simulates a **retail banking churn analysis** aimed at identifying factors that influence customer attrition and developing machine learning models to predict churn. The goal is to support proactive **customer retention strategies** for banks.
+https://github.com/kathypata/Business-Analyst/blob/main/Chrun_Customer_Banking.ipynb
 
 ---
 
