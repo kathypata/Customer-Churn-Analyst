@@ -37,7 +37,7 @@ This project simulates a **retail banking churn analysis** aimed at identifying 
 | Random Forest       | 87%      | 0.57             | Class weights improved recall          |
 | XGBoost             | 83%      | 0.60             | Tuned with `scale_pos_weight`         |
 | CatBoost            | 84%      | 0.62             | Best overall performance               |
-| LightGBM            | 82%      | 0.62             | Comparable to CatBoost                 |
+
 
 > **Best Model:** CatBoost Classifier (after threshold tuning)
 
