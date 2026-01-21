@@ -21,7 +21,7 @@ This project delivers a strategic Business Intelligence solution for a Credit Ri
 ## 🛠️ Technical Methodology
 
 ### 1. Data Engineering & Validation (SQL)
-Processed **30,000+ records** with a focus on data integrity:
+Processed *10,000+ records** with a focus on data integrity:
 * **Audit Logic:** Implemented checks to verify LTI (Loan-to-Income) < DTI (Debt-to-Income) ratios.
 * **Data Cleaning:** Handled zero-income entries and filtered outliers (DTI > 100%) to prevent calculation errors.
 * **Performance Scoping:** Reduced model size by focusing on the Canada region to improve dashboard responsiveness.
@@ -35,7 +35,7 @@ Processed **30,000+ records** with a focus on data integrity:
 ## 📈 Key Insights & Business Outcomes
 
 ### **High-Risk Segment Discovery**
-* **Analysis:** Identified a specific segment (Income <$35k, 0-year tenure, Renters) with an **89% default rate**.
+* **Analysis:** Identified a specific segment (Income <$35k, 0-year tenure, Renters, Not disclosed employment) with an **89% default rate**.
 * **Action:** Recommended **automated decline rules** for this segment.
 * **Impact:** Reduced PCL exposure and saved **~750 underwriting hours** annually through automation.
 
