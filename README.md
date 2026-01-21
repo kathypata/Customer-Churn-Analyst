@@ -54,7 +54,7 @@ Processed *10,000+ records** with a focus on data integrity:
 
 ## 📂 Project Files
 * `/PowerBI_Files`: [📥 Download CreditRisk.pbix](./CreditRisk.pbix) file including UI/UX design from Canva.
-* * **Interactive View:** [Click here to view PNG Full Size](./Borrower with 89% Default rate.png)
+* * **Interactive View:** [Click here to view PNG Full Size] Borrower with 89% Default rate.png
 
 #  Bank Customer Churn Prediction
 
