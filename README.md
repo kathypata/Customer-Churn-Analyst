@@ -54,7 +54,8 @@ Processed *10,000+ records** with a focus on data integrity:
 
 ## 📂 Project Files
 * * **PowerBI_Files:** [📥 Download CreditRisk.pbix](./CreditRisk.pbix) file including UI/UX design from Canva.
-* * **Interactive View:** ## 📊 Project Dashboard Gallery
+* * **Interactive View:**
+  * 📊 Project Dashboard Gallery
 
 ### **1. Executive Overview**
 *Comprehensive view of Credit Risk portfolio showing Default Rate.*
