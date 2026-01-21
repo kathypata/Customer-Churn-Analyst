@@ -25,7 +25,7 @@ Processed *10,000+ records** with a focus on data integrity:
 
 ### 2. Modeling & DAX (Power BI)
 * Built a **Star Schema** to handle complex borrower attributes.
-* Developed advanced DAX measures for **Default Rate %**, **PCL (Provision for Credit Losses)**, and **Moving Averages**.
+* Developed advanced DAX measures for **Default Rate %** and **Total Loan Count**
 
 ---
 
