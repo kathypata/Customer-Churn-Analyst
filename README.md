@@ -1,3 +1,64 @@
+# Credit Risk & Loan Performance Intelligence (Canada Region)
+
+![Power BI](https://img.shields.io/badge/Data_Visualization-Power_BI-yellow) 
+![SQL](https://img.shields.io/badge/Data_Engineering-SQL_Server-blue) 
+![Analytics](https://img.shields.io/badge/Analysis-Risk_Mitigation-red)
+
+## 📌 Executive Summary
+This project delivers a strategic Business Intelligence solution for a Credit Risk Department to monitor portfolio health, identify risk concentration, and support data-driven underwriting. By scoping the analysis to **Canadian borrowers**, I improved query speed and regional governance clarity.
+
+
+
+---
+
+## 🎯 Business Objectives
+* **Risk Identification:** Which segments contribute disproportionately to defaults?
+* **Efficiency:** Where is manual underwriting effort misaligned with outcomes?
+* **Growth:** Which low-risk segments support safe portfolio expansion?
+
+---
+
+## 🛠️ Technical Methodology
+
+### 1. Data Engineering & Validation (SQL)
+Processed **30,000+ records** with a focus on data integrity:
+* **Audit Logic:** Implemented checks to verify LTI (Loan-to-Income) < DTI (Debt-to-Income) ratios.
+* **Data Cleaning:** Handled zero-income entries and filtered outliers (DTI > 100%) to prevent calculation errors.
+* **Performance Scoping:** Reduced model size by focusing on the Canada region to improve dashboard responsiveness.
+
+### 2. Modeling & DAX (Power BI)
+* Built a **Star Schema** to handle complex borrower attributes.
+* Developed advanced DAX measures for **Default Rate %**, **PCL (Provision for Credit Losses)**, and **Moving Averages**.
+
+---
+
+## 📈 Key Insights & Business Outcomes
+
+### **High-Risk Segment Discovery**
+* **Analysis:** Identified a specific segment (Income <$35k, 0-year tenure, Renters) with an **89% default rate**.
+* **Action:** Recommended **automated decline rules** for this segment.
+* **Impact:** Reduced PCL exposure and saved **~750 underwriting hours** annually through automation.
+
+### **Lending Strategy Matrix**
+| Segment | Default Rate | Recommended Treatment | Risk Rationale |
+| :--- | :--- | :--- | :--- |
+| **Homeowners** | ~1% | Straight-Through Processing | Low volatility; stable repayment |
+| **Standard Renters** | 12% – 25% | Manual Review | Moderate risk; requires judgment |
+| **High-Risk Multi-Factor**| ~89% | **Automated Decline** | Disproportionate contribution to losses |
+
+---
+
+## 💡 Strategic Recommendations
+1. **Policy Calibration:** Implement stricter eligibility for Grade D-G loans; Grade G showed a **100% default rate** in the sampled data.
+2. **Growth Channel:** Expand low-risk volume by offering competitive pricing to the **Homeowner** segment (~1% default rate).
+3. **Operational Efficiency:** Use auto-approval for low-risk applications to allow underwriters to focus on complex, borderline cases.
+
+---
+
+## 📂 Project Files
+* `/SQL_Scripts`: Data cleaning and validation queries.
+* `/PowerBI_Files`: `.pbix` file including UI/UX design from Canva.
+* `/Documentation`: Full Business Requirement Document (BRD).
 #  Bank Customer Churn Prediction
 
 This project simulates a **retail banking churn analysis** aimed at identifying factors that influence customer attrition and developing machine learning models to predict churn. The goal is to support proactive **customer retention strategies** for banks.
