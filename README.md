@@ -54,7 +54,19 @@ Processed *10,000+ records** with a focus on data integrity:
 
 ## 📂 Project Files
 * * **PowerBI_Files:** [📥 Download CreditRisk.pbix](./CreditRisk.pbix) file including UI/UX design from Canva.
-* * **Interactive View:** [![Power BI](https://img.shields.io/badge/Data_Visualization-Power_BI-yellow)](https://github.com/kathypata/Business-Analyst/blob/main/Borrower%20with%2089%25%20Default%20rate.png)
+* * **Interactive View:** ## 📊 Project Dashboard Gallery
+
+### **1. Executive Overview**
+*Comprehensive view of portfolio KPIs and regional distribution.*
+![Credit Risk Overview](./Credit%20Risk%20Overview.png)
+
+### **2. Loan Portfolio Deep-Dive**
+*Detailed breakdown of loan grades and repayment performance.*
+![Loan Portfolio](./Loan%20Portfolio.png)
+
+### **3. High-Risk Segment Analysis**
+*The specific segment identifying the 89% default rate discussed in the findings.*
+![Borrower Analysis](./Borrower%20with%2089%25%20Default%20rate.png)
 
 #  Bank Customer Churn Prediction
 
