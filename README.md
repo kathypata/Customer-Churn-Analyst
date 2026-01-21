@@ -57,7 +57,7 @@ Processed *10,000+ records** with a focus on data integrity:
 * * **Interactive View:** ## 📊 Project Dashboard Gallery
 
 ### **1. Executive Overview**
-*Comprehensive view of portfolio KPIs and regional distribution.*
+*Comprehensive view of Credit Risk portfolio showing Default Rate.*
 ![Credit Risk Overview](./Credit%20Risk%20Overview.png)
 
 ### **2. Loan Portfolio Deep-Dive**
@@ -65,7 +65,7 @@ Processed *10,000+ records** with a focus on data integrity:
 ![Loan Portfolio](./Loan%20Portfolio.png)
 
 ### **3. High-Risk Segment Analysis**
-*The specific segment identifying the 89% default rate discussed in the findings.*
+*The specific segment identifying the 89% default rate is discussed in the findings.*
 ![Borrower Analysis](./Borrower%20with%2089%25%20Default%20rate.png)
 
 #  Bank Customer Churn Prediction
