@@ -1,8 +1,5 @@
 # Credit Risk & Loan Performance Intelligence (Canada Region)
 
-![Power BI](https://img.shields.io/badge/Data_Visualization-Power_BI-yellow) 
-![SQL](https://img.shields.io/badge/Data_Engineering-SQL_Server-blue) 
-![Analytics](https://img.shields.io/badge/Analysis-Risk_Mitigation-red)
 
 ## 📌 Executive Summary
 This project delivers a strategic Business Intelligence solution for a Credit Risk Department to monitor portfolio health, identify risk concentration, and support data-driven underwriting. By scoping the analysis to **Canadian borrowers**, I improved query speed and regional governance clarity.
@@ -57,6 +54,7 @@ Processed *10,000+ records** with a focus on data integrity:
 
 ## 📂 Project Files
 * `/PowerBI_Files`: [📥 Download CreditRisk.pbix](./CreditRisk.pbix) file including UI/UX design from Canva.
+* * **Interactive View:** [Click here to view PNG Full Size](./Borrower with 89% Default rate.png)
 
 #  Bank Customer Churn Prediction
 
