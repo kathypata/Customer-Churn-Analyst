@@ -57,7 +57,7 @@ Processed **30,000+ records** with a focus on data integrity:
 
 ## 📂 Project Files
 * `/SQL_Scripts`: Data cleaning and validation queries.
-* `/PowerBI_Files`: `.pbix` file including UI/UX design from Canva.
+* `/PowerBI_Files`: `CreditRisk.pbix` file including UI/UX design from Canva.
 * `/Documentation`: Full Business Requirement Document (BRD).
 #  Bank Customer Churn Prediction
 
