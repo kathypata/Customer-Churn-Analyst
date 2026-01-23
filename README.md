@@ -1,55 +1,62 @@
 # Credit Risk & Loan Performance Intelligence (Canada Region)
-
+**Business Intelligence Solution for Portfolio Risk Management & Underwriting Automation**
 
 ## 📌 Executive Summary
-This project delivers a strategic Business Intelligence solution for a Credit Risk Department to monitor portfolio health, identify risk concentration, and support data-driven underwriting. By scoping the analysis to **Canadian borrowers**, I improved query speed and regional governance clarity.
-
-
+This project delivers an end-to-end BI solution designed for a **Credit Risk Department** to monitor portfolio health and identify risk concentration. By implementing regional data governance for Canadian borrowers and building a robust Power BI data model, I identified high-risk segments representing an **89% default propensity**, leading to a strategic recommendation that could save **~750 underwriting hours annually**.
 
 ---
 
 ## 🎯 Business Objectives
-* **Risk Identification:** Which segments contribute disproportionately to defaults?
-* **Efficiency:** Where is manual underwriting effort misaligned with outcomes?
-* **Growth:** Which low-risk segments support safe portfolio expansion?
+* **Risk Segmentation:** Identify which borrower attributes contribute disproportionately to defaults.
+* **Operational Efficiency:** Optimize the underwriting funnel by identifying "Straight-Through Processing" (STP) candidates.
+* **PCL Reduction:** Provide data-driven evidence to tighten policy on high-loss cohorts.
 
 ---
 
-## 🛠️ Technical Methodology
-
-### 1. Data Engineering & Validation (SQL)
-Processed *10,000+ records** with a focus on data integrity:
-* **Audit Logic:** Implemented checks to verify LTI (Loan-to-Income) < DTI (Debt-to-Income) ratios.
-* **Data Cleaning:** Handled zero-income entries and filtered outliers (DTI > 100%) to prevent calculation errors.
-* **Performance Scoping:** Reduced model size by focusing on the Canada region to improve dashboard responsiveness.
-
-### 2. Modeling & DAX (Power BI)
-* Built a **Star Schema** to handle complex borrower attributes.
-* Developed advanced DAX measures for **Default Rate %** and **Total Loan Count**
+## 🛠️ Technical Stack
+* **Data Processing:** SQL (Data Cleaning, Validation, CTEs)
+* **Data Modeling:** Power BI (Star Schema, Power Query/M)
+* **Analytics:** DAX (Time Intelligence, Probability of Default)
+* **Automation Logic:** Power Automate (Conceptual workflow for data alerts)
 
 ---
 
-## 📈 Key Insights & Business Outcomes
+## 🏗️ Methodology
 
-### **High-Risk Segment Discovery**
-* **Analysis:** Identified a specific segment (Income <$35k, 0-year tenure, Renters, Not disclosed employment) with an **89% default rate**.
-* **Action:** Recommended **automated decline rules** for this segment.
-* **Impact:** Reduced PCL exposure and saved **~750 underwriting hours** annually through automation.
+### 1. Data Engineering & Governance (SQL)
+To ensure the model was "Bank-Ready," I implemented rigorous Data Quality (DQ) checks:
+* **Audit Logic:** Developed scripts to flag logical inconsistencies, such as cases where **Loan-to-Income (LTI)** exceeded **Debt-to-Income (DTI)**.
+* **Performance Scoping:** Modularized SQL views to focus on the Canada region, ensuring the architecture is scalable for multi-million row datasets.
+* **Outlier Handling:** Automated the removal of "noise" data (e.g., zero-income entries or DTIs > 100%) that would skew weighted average risk grades.
 
-### **Lending Strategy Matrix**
-| Segment | Default Rate | Recommended Treatment | Risk Rationale |
+### 2. Data Modeling (Power BI)
+I utilized a **Star Schema** architecture to ensure high performance and intuitive filtering.
+* **Fact Table:** `Fact_Loans` (Transactional data, loan amounts, status).
+* **Dimension Tables:** `Dim_Borrowers` (Demographics), `Dim_Date`, and `Dim_Geography`.
+
+---
+
+## 📈 Key Insights & Strategic Impact
+
+### High-Loss Propensity Discovery
+Through multi-factor analysis, I identified a "Critical Risk" segment:
+* **Criteria:** Income < $35k, 0-year employment tenure, Renter status.
+* **Outcome:** This cohort demonstrated an **89% default rate**.
+* **Action:** Recommended **Automated Decline rules** for this specific intersection, reducing Provision for Credit Losses (PCL).
+
+### Lending Strategy Matrix
+| Borrower Segment | Default Rate | Recommended Treatment | Business Rationale |
 | :--- | :--- | :--- | :--- |
-| **Homeowners** | ~1% | Straight-Through Processing | Low volatility; stable repayment |
-| **Standard Renters** | 12% – 25% | Manual Review | Moderate risk; requires judgment |
-| **High-Risk Multi-Factor**| ~89% | **Automated Decline** | Disproportionate contribution to losses |
+| **Homeowners** | ~1% | **Auto-Approval (STP)** | High stability; low volatility. |
+| **Standard Renters** | 12% – 25% | **Manual Review** | Moderate risk; requires judgment. |
+| **High-Risk Cohort** | ~89% | **Policy-Driven Decline** | Disproportionate loss contribution. |
 
 ---
 
 ## 💡 Strategic Recommendations
-1. **Policy Calibration:** Implement stricter eligibility for Grade D-G loans; Grade G showed a **100% default rate** in the sampled data.
-2. **Growth Channel:** Expand low-risk volume by offering competitive pricing to the **Homeowner** segment (~1% default rate).
-3. **Operational Efficiency:** Use auto-approval for low-risk applications to allow underwriters to focus on complex, borderline cases.
-
+1.  **Growth Strategy:** Increase marketing spend toward the **Homeowner** segment to balance the risk of higher-yield assets.
+2.  **Policy Calibration:** Tighten eligibility for Grade G loans which showed near-total loss propensity in the sample data.
+3.  **Process Automation:** Shift low-risk applications to automated approval to reallocate senior underwriters to focus on complex, borderline cases.
 ---
 
 ## 📂 Project Files
