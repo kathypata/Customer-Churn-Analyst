@@ -1,14 +1,14 @@
 /*
 -------------------------------------------------------------------------------
 Project:      Retail Banking Attrition Analysis (Canada)
-Author:       Katherine Patadee (Pew)
+Author:       Katherine Patadee 
 Date:         2026-03-30
 Description:  Initial database setup, schema optimization, and churn analysis.
 
 EXECUTIVE SUMMARY:
 - Overall churn rate is 20.37%, exceeding industry benchmark (15%)
 - Quebec market is the primary risk driver with 32.44% churn
-- Customers with 3+ products show extremely high churn (82%–100%)
+- Customers with 3+ products show extremely high churn (82%â€“100%)
 - High-balance customers (100k+) are both high-value and high-risk
 - Estimated total balance lost due to churn is approximately $185.6M (~24% of total bank deposits)
 
@@ -24,7 +24,7 @@ BUSINESS PROBLEMS & OBJECTIVES:
 2. REGIONAL DISPARITY: Identify why the Quebec market
    shows a churn rate double that of Ontario, posing a risk to regional capital.
    
-3. PRODUCT FRICTION: Investigate the "Over-Selling" hypothesis—why customers 
+3. PRODUCT FRICTION: Investigate the "Over-Selling" hypothesisâ€”why customers 
    with 3 or more products have a significantly higher probability of leaving.
    
 4. HIGH-VALUE INACTIVITY: Identify clients (Balances > $150k) 
@@ -145,7 +145,7 @@ ORDER BY
 /* ===============================================================================
 FINDINGS
 ===============================================================================
-1. Customers with balances between 100k–150k have the highest churn rate (25.7%) and the highest number of inactive accounts. 
+1. Customers with balances between 100kâ€“150k have the highest churn rate (25.7%) and the highest number of inactive accounts. 
 2. Customers with balances above 150k exhibit the second highest churn rate (23.1%), 
 indicating that high-value customers are disproportionately at risk, potentially leading to significant revenue loss.
 
