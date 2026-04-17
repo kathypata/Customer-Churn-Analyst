@@ -64,7 +64,7 @@ Choose **threshold = 0.55** to balance business needs between precision and reca
 ## Files Included
 
 - `Churn Customer Banking.ipynb` – Full Jupyter Notebook
-- `Clean Bank Customer Churn Prediction.csv` – Cleaned dataset
+- `Bank Customer Churn.csv` – Cleaned dataset
 
 ---
 
