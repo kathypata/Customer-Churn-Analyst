@@ -94,9 +94,3 @@ Choose **threshold = 0.55** to balance business needs between precision and reca
 
 ---
 
-### Historical Report
-
-This report presents long-term trends in delay volume and severity from 2020 to 2024, including year-over-year and month-over-month comparisons.
-
-![Historical Report](historical_report.png)
-
